@@ -8,7 +8,7 @@ body{
 }
 
 .wrapper{
-	background-color: #1c1c1c;
+	background-color: #333333;
 }
 /*globel*/
 
@@ -16,6 +16,7 @@ body{
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
 	font-family: "Noto Serif TC";
+	color: #fff;
 }
 
 .heading{
@@ -32,7 +33,7 @@ h1,h2,h3,h4,h5,h6,p{
 	vertical-align: middle;
 	width: 24px;
 	height: 24px;
-	border:1px solid #333;
+	border:1px solid #fff;
 	background-size: cover;
 }
 
@@ -199,6 +200,18 @@ h1,h2,h3,h4,h5,h6,p{
 	background-position: center;
 }
 
+.hero--bg-covered__thirdpage{
+	background-image: url('thirdpage.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.hero--bg-covered__6thpage{
+	background-image: url('6thpage.png');
+	background-size: cover;
+	background-position: center;
+}
+
 .scrolldown-btn{
 	width: 48px;
 	height: 48px;
@@ -229,9 +242,18 @@ h1,h2,h3,h4,h5,h6,p{
 	color: #fff;
 }
 
+.info p{
+	font-size: 18px;
+/*	line-height: 48px;*/
+}
+
 .info__title{
 	font-size: 48px;
 	margin-bottom: 16px;
+}
+
+.info__title_sing, .info__title_news{
+	padding-top: 100px;
 }
 
 .info__subtitle{
@@ -258,6 +280,7 @@ h1,h2,h3,h4,h5,h6,p{
 .info__storename{
 	color: #ACA197;
 }
+
 /*info*/
 
 /*thumbnail*/
@@ -330,16 +353,16 @@ h1,h2,h3,h4,h5,h6,p{
 	background-position: center;
 }
 
-.image:after{
+/*.image:after{
 	content: "";
 	position: absolute;
 	right: 0;
 	top:0;
 	height: 100%;
 	width: 100%;
-	background-color: #333333;
+	background-color: #fff;
 	opacity: 0.2;	
-}
+}*/
 
 .imgbox__news{
 	width: 50%;

@@ -31,10 +31,10 @@ $(document).ready(function(){
             	items:1
         	},
         	768:{
-            	items:2
+            	items:1.6
         	},
         	1000:{
-            	items:2
+            	items:1.6
         	}
     	}
 	})
