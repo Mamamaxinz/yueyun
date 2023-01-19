@@ -212,6 +212,18 @@ h1,h2,h3,h4,h5,h6,p{
 	background-position: center;
 }
 
+.hero--bg-covered__4thpage{
+	background-image: url('4thpage.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.hero--bg-covered__5thpage{
+	background-image: url('5thpage.svg');
+	background-size: cover;
+	background-position: center;
+}
+
 .scrolldown-btn{
 	width: 48px;
 	height: 48px;
@@ -281,14 +293,34 @@ h1,h2,h3,h4,h5,h6,p{
 	color: #ACA197;
 }
 
+.info__4thpage{
+	top:100px;
+}
+
+.info__5thpage{
+	top:-50px;
+}
+
 /*info*/
 
 /*thumbnail*/
-.thumbnail{
-	color: #fff;
-	width: 100%;
+.thumbnails{
+	top:-50px;
+	transform: scale(0.8) translateY(-10%);
+	margin-bottom: -200px;
 }
 
+.thumbnail{
+	color: #fff;
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.thumbnail img{
+	height: 70%;
+}
 
 /*thumbnail*/
 
