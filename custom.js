@@ -22,7 +22,7 @@ $(document).ready(function(){
 	// carousel plugin initialization
 	$('.owl-carousel').owlCarousel({
     	loop:true,
-    	margin:16,
+    	margin:0,
     	nav:true,
     	navText:[],
     	dots:false,
@@ -31,10 +31,10 @@ $(document).ready(function(){
             	items:1
         	},
         	768:{
-            	items:1.6
+            	items:1
         	},
         	1000:{
-            	items:1.6
+            	items:1
         	}
     	}
 	})
